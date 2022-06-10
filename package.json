@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-invitacion",
+  "version": "1.0.0",
+  "description": "Proyecto invitacion para coder house",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss archivo-scss/style.scss archivo-css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alter94/Proyecto-invitacion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alter94/Proyecto-invitacion/issues"
+  },
+  "homepage": "https://github.com/Alter94/Proyecto-invitacion#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
